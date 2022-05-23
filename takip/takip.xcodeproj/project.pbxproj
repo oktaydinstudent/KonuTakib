@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3561BF2F283B8B6E00CBFE25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF2E283B8B6E00CBFE25 /* AppDelegate.swift */; };
+		3561BF31283B8B6E00CBFE25 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF30283B8B6E00CBFE25 /* SceneDelegate.swift */; };
+		3561BF33283B8B6E00CBFE25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF32283B8B6E00CBFE25 /* ViewController.swift */; };
+		3561BF36283B8B6E00CBFE25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3561BF34283B8B6E00CBFE25 /* Main.storyboard */; };
+		3561BF38283B8B7000CBFE25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3561BF37283B8B7000CBFE25 /* Assets.xcassets */; };
+		3561BF3B283B8B7000CBFE25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3561BF39283B8B7000CBFE25 /* LaunchScreen.storyboard */; };
+		3561BF43283B8CA700CBFE25 /* TytViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF42283B8CA700CBFE25 /* TytViewController.swift */; };
+		3561BF45283B8D3F00CBFE25 /* AytViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF44283B8D3F00CBFE25 /* AytViewController.swift */; };
+		3561BF47283B90AE00CBFE25 /* TytMatematikViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF46283B90AE00CBFE25 /* TytMatematikViewController.swift */; };
+		3561BF49283B93CF00CBFE25 /* TytGeometriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF48283B93CF00CBFE25 /* TytGeometriViewController.swift */; };
+		3561BF4B283B958C00CBFE25 /* TytTurkceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF4A283B958C00CBFE25 /* TytTurkceViewController.swift */; };
+		3561BF4D283B971100CBFE25 /* TytFizikViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF4C283B971100CBFE25 /* TytFizikViewController.swift */; };
+		3561BF4F283B991100CBFE25 /* TytKimyaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF4E283B991100CBFE25 /* TytKimyaViewController.swift */; };
+		3561BF51283B9A7D00CBFE25 /* TytBiyolojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF50283B9A7D00CBFE25 /* TytBiyolojiViewController.swift */; };
+		3561BF53283B9B8200CBFE25 /* TytTarihViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF52283B9B8200CBFE25 /* TytTarihViewController.swift */; };
+		3561BF55283B9DB000CBFE25 /* TytCografyaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF54283B9DB000CBFE25 /* TytCografyaViewController.swift */; };
+		3561BF57283B9EBA00CBFE25 /* TytDinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF56283B9EBA00CBFE25 /* TytDinViewController.swift */; };
+		3561BF59283BA17A00CBFE25 /* TytFelsefeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF58283BA17A00CBFE25 /* TytFelsefeViewController.swift */; };
+		3561BF5B283BADBB00CBFE25 /* AytMatematikViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF5A283BADBB00CBFE25 /* AytMatematikViewController.swift */; };
+		3561BF5D283BAECF00CBFE25 /* AytGeometriViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF5C283BAECF00CBFE25 /* AytGeometriViewController.swift */; };
+		3561BF5F283BAFA500CBFE25 /* AytEdebiyatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF5E283BAFA500CBFE25 /* AytEdebiyatViewController.swift */; };
+		3561BF61283BB0C500CBFE25 /* AytFizikViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF60283BB0C500CBFE25 /* AytFizikViewController.swift */; };
+		3561BF63283BB24700CBFE25 /* AytKimyaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF62283BB24700CBFE25 /* AytKimyaViewController.swift */; };
+		3561BF65283BB3D300CBFE25 /* AytBiyolojiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF64283BB3D300CBFE25 /* AytBiyolojiViewController.swift */; };
+		3561BF67283BB58000CBFE25 /* AytTarihViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF66283BB58000CBFE25 /* AytTarihViewController.swift */; };
+		3561BF69283BB6A400CBFE25 /* AytCografyaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF68283BB6A400CBFE25 /* AytCografyaViewController.swift */; };
+		3561BF6B283BB78E00CBFE25 /* AytDinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF6A283BB78E00CBFE25 /* AytDinViewController.swift */; };
+		3561BF6D283BB82E00CBFE25 /* AytFesefeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3561BF6C283BB82E00CBFE25 /* AytFesefeViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3561BF2B283B8B6E00CBFE25 /* takip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = takip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3561BF2E283B8B6E00CBFE25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3561BF30283B8B6E00CBFE25 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3561BF32283B8B6E00CBFE25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3561BF35283B8B6E00CBFE25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3561BF37283B8B7000CBFE25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3561BF3A283B8B7000CBFE25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3561BF3C283B8B7000CBFE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3561BF42283B8CA700CBFE25 /* TytViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TytViewController.swift; sourceTree = "<group>"; };
+		3561BF44283B8D3F00CBFE25 /* AytViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AytViewController.swift; sourceTree = "<group>"; };
+		3561BF46283B90AE00CBFE25 /* TytMatematikViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TytMatematikViewController.swift; sourceTree = "<group>"; };
+		3561BF48283B93CF00CBFE25 /* TytGeometriViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TytGeometriViewController.swift; sourceTree = "<group>"; };
+		3561BF4A283B958C00CBFE25 /* TytTurkceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TytTurkceViewController.swift; sourceTree = "<group>"; };
+		3561BF4C283B971100CBFE25 /* TytFizikViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TytFizikViewController.swift; sourceTree = "<group>"; };
+		3561BF4E283B991100CBFE25 /* TytKimyaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TytKimyaViewController.swift; sourceTree = "<group>"; };
+		3561BF50283B9A7D00CBFE25 /* TytBiyolojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TytBiyolojiViewController.swift; sourceTree = "<group>"; };
+		3561BF52283B9B8200CBFE25 /* TytTarihViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TytTarihViewController.swift; sourceTree = "<group>"; };
+		3561BF54283B9DB000CBFE25 /* TytCografyaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TytCografyaViewController.swift; sourceTree = "<group>"; };
+		3561BF56283B9EBA00CBFE25 /* TytDinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TytDinViewController.swift; sourceTree = "<group>"; };
+		3561BF58283BA17A00CBFE25 /* TytFelsefeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TytFelsefeViewController.swift; sourceTree = "<group>"; };
+		3561BF5A283BADBB00CBFE25 /* AytMatematikViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AytMatematikViewController.swift; sourceTree = "<group>"; };
+		3561BF5C283BAECF00CBFE25 /* AytGeometriViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AytGeometriViewController.swift; sourceTree = "<group>"; };
+		3561BF5E283BAFA500CBFE25 /* AytEdebiyatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AytEdebiyatViewController.swift; sourceTree = "<group>"; };
+		3561BF60283BB0C500CBFE25 /* AytFizikViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AytFizikViewController.swift; sourceTree = "<group>"; };
+		3561BF62283BB24700CBFE25 /* AytKimyaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AytKimyaViewController.swift; sourceTree = "<group>"; };
+		3561BF64283BB3D300CBFE25 /* AytBiyolojiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AytBiyolojiViewController.swift; sourceTree = "<group>"; };
+		3561BF66283BB58000CBFE25 /* AytTarihViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AytTarihViewController.swift; sourceTree = "<group>"; };
+		3561BF68283BB6A400CBFE25 /* AytCografyaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AytCografyaViewController.swift; sourceTree = "<group>"; };
+		3561BF6A283BB78E00CBFE25 /* AytDinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AytDinViewController.swift; sourceTree = "<group>"; };
+		3561BF6C283BB82E00CBFE25 /* AytFesefeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AytFesefeViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3561BF28283B8B6E00CBFE25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3561BF22283B8B6E00CBFE25 = {
+			isa = PBXGroup;
+			children = (
+				3561BF2D283B8B6E00CBFE25 /* takip */,
+				3561BF2C283B8B6E00CBFE25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3561BF2C283B8B6E00CBFE25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3561BF2B283B8B6E00CBFE25 /* takip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3561BF2D283B8B6E00CBFE25 /* takip */ = {
+			isa = PBXGroup;
+			children = (
+				3561BF2E283B8B6E00CBFE25 /* AppDelegate.swift */,
+				3561BF30283B8B6E00CBFE25 /* SceneDelegate.swift */,
+				3561BF32283B8B6E00CBFE25 /* ViewController.swift */,
+				3561BF34283B8B6E00CBFE25 /* Main.storyboard */,
+				3561BF37283B8B7000CBFE25 /* Assets.xcassets */,
+				3561BF39283B8B7000CBFE25 /* LaunchScreen.storyboard */,
+				3561BF3C283B8B7000CBFE25 /* Info.plist */,
+				3561BF42283B8CA700CBFE25 /* TytViewController.swift */,
+				3561BF44283B8D3F00CBFE25 /* AytViewController.swift */,
+				3561BF46283B90AE00CBFE25 /* TytMatematikViewController.swift */,
+				3561BF48283B93CF00CBFE25 /* TytGeometriViewController.swift */,
+				3561BF4A283B958C00CBFE25 /* TytTurkceViewController.swift */,
+				3561BF4C283B971100CBFE25 /* TytFizikViewController.swift */,
+				3561BF4E283B991100CBFE25 /* TytKimyaViewController.swift */,
+				3561BF50283B9A7D00CBFE25 /* TytBiyolojiViewController.swift */,
+				3561BF52283B9B8200CBFE25 /* TytTarihViewController.swift */,
+				3561BF54283B9DB000CBFE25 /* TytCografyaViewController.swift */,
+				3561BF56283B9EBA00CBFE25 /* TytDinViewController.swift */,
+				3561BF58283BA17A00CBFE25 /* TytFelsefeViewController.swift */,
+				3561BF5A283BADBB00CBFE25 /* AytMatematikViewController.swift */,
+				3561BF5C283BAECF00CBFE25 /* AytGeometriViewController.swift */,
+				3561BF5E283BAFA500CBFE25 /* AytEdebiyatViewController.swift */,
+				3561BF60283BB0C500CBFE25 /* AytFizikViewController.swift */,
+				3561BF62283BB24700CBFE25 /* AytKimyaViewController.swift */,
+				3561BF64283BB3D300CBFE25 /* AytBiyolojiViewController.swift */,
+				3561BF66283BB58000CBFE25 /* AytTarihViewController.swift */,
+				3561BF68283BB6A400CBFE25 /* AytCografyaViewController.swift */,
+				3561BF6A283BB78E00CBFE25 /* AytDinViewController.swift */,
+				3561BF6C283BB82E00CBFE25 /* AytFesefeViewController.swift */,
+			);
+			path = takip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3561BF2A283B8B6E00CBFE25 /* takip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3561BF3F283B8B7000CBFE25 /* Build configuration list for PBXNativeTarget "takip" */;
+			buildPhases = (
+				3561BF27283B8B6E00CBFE25 /* Sources */,
+				3561BF28283B8B6E00CBFE25 /* Frameworks */,
+				3561BF29283B8B6E00CBFE25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = takip;
+			productName = takip;
+			productReference = 3561BF2B283B8B6E00CBFE25 /* takip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3561BF23283B8B6E00CBFE25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3561BF2A283B8B6E00CBFE25 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 3561BF26283B8B6E00CBFE25 /* Build configuration list for PBXProject "takip" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3561BF22283B8B6E00CBFE25;
+			productRefGroup = 3561BF2C283B8B6E00CBFE25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3561BF2A283B8B6E00CBFE25 /* takip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3561BF29283B8B6E00CBFE25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3561BF3B283B8B7000CBFE25 /* LaunchScreen.storyboard in Resources */,
+				3561BF38283B8B7000CBFE25 /* Assets.xcassets in Resources */,
+				3561BF36283B8B6E00CBFE25 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3561BF27283B8B6E00CBFE25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3561BF6D283BB82E00CBFE25 /* AytFesefeViewController.swift in Sources */,
+				3561BF5F283BAFA500CBFE25 /* AytEdebiyatViewController.swift in Sources */,
+				3561BF45283B8D3F00CBFE25 /* AytViewController.swift in Sources */,
+				3561BF33283B8B6E00CBFE25 /* ViewController.swift in Sources */,
+				3561BF63283BB24700CBFE25 /* AytKimyaViewController.swift in Sources */,
+				3561BF67283BB58000CBFE25 /* AytTarihViewController.swift in Sources */,
+				3561BF6B283BB78E00CBFE25 /* AytDinViewController.swift in Sources */,
+				3561BF57283B9EBA00CBFE25 /* TytDinViewController.swift in Sources */,
+				3561BF4F283B991100CBFE25 /* TytKimyaViewController.swift in Sources */,
+				3561BF65283BB3D300CBFE25 /* AytBiyolojiViewController.swift in Sources */,
+				3561BF69283BB6A400CBFE25 /* AytCografyaViewController.swift in Sources */,
+				3561BF55283B9DB000CBFE25 /* TytCografyaViewController.swift in Sources */,
+				3561BF59283BA17A00CBFE25 /* TytFelsefeViewController.swift in Sources */,
+				3561BF4D283B971100CBFE25 /* TytFizikViewController.swift in Sources */,
+				3561BF2F283B8B6E00CBFE25 /* AppDelegate.swift in Sources */,
+				3561BF49283B93CF00CBFE25 /* TytGeometriViewController.swift in Sources */,
+				3561BF51283B9A7D00CBFE25 /* TytBiyolojiViewController.swift in Sources */,
+				3561BF5B283BADBB00CBFE25 /* AytMatematikViewController.swift in Sources */,
+				3561BF43283B8CA700CBFE25 /* TytViewController.swift in Sources */,
+				3561BF47283B90AE00CBFE25 /* TytMatematikViewController.swift in Sources */,
+				3561BF5D283BAECF00CBFE25 /* AytGeometriViewController.swift in Sources */,
+				3561BF61283BB0C500CBFE25 /* AytFizikViewController.swift in Sources */,
+				3561BF4B283B958C00CBFE25 /* TytTurkceViewController.swift in Sources */,
+				3561BF31283B8B6E00CBFE25 /* SceneDelegate.swift in Sources */,
+				3561BF53283B9B8200CBFE25 /* TytTarihViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3561BF34283B8B6E00CBFE25 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3561BF35283B8B6E00CBFE25 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3561BF39283B8B7000CBFE25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3561BF3A283B8B7000CBFE25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3561BF3D283B8B7000CBFE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3561BF3E283B8B7000CBFE25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3561BF40283B8B7000CBFE25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A68HYF6D3H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = takip/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = first.app.takip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3561BF41283B8B7000CBFE25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A68HYF6D3H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = takip/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = first.app.takip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3561BF26283B8B6E00CBFE25 /* Build configuration list for PBXProject "takip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3561BF3D283B8B7000CBFE25 /* Debug */,
+				3561BF3E283B8B7000CBFE25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3561BF3F283B8B7000CBFE25 /* Build configuration list for PBXNativeTarget "takip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3561BF40283B8B7000CBFE25 /* Debug */,
+				3561BF41283B8B7000CBFE25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3561BF23283B8B6E00CBFE25 /* Project object */;
+}
